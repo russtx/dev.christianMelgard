@@ -1,0 +1,192 @@
+/*
+Theme Name: Sidewinder
+Theme URI: http://graphpaperpress.com/themes/sidewinder/
+Description: A child theme for Base Theme Framework.
+Author: Graph Paper Press
+Author URI: http://graphpaperpress.com
+Template: base
+Version: 3.0.2
+License:  GPL
+*/
+
+@import url("../base/style.css");
+
+/* GLOBAL */
+* {margin: 0; padding:0;}
+body {margin:0;padding:0}
+#page {max-width:100%;margin:0;}
+#primary {margin-top:0;}
+.page #main {max-width: 940px; padding: 10px; margin: 0 auto;}
+.home #main, .archive #main, .single-format-gallery #main {width: 100%;}
+#content {width: 100%;margin:0;}
+a {	outline:none; -webkit-tap-highlight-color: rgba(0,0,0,0); }
+html { overflow:auto; overflow-x:hidden; } /*IE7 Scrollbar Bug*/
+
+
+/* HEADER */
+#branding hgroup {padding: 10px 10px 20px; margin-bottom: 0;}
+#masthead { float: left; padding: 15px 10px;}
+#masthead h1 {margin:0}
+.logo a {font-size: 16px; text-transform: uppercase; }
+
+/* MENU */
+#topaccess {padding-top:1px;}
+#access {	background-color: transparent; clear: none; float: right; margin: 0 15px 6px; width: auto; /* This floats the menu top right, making it compact */ }
+#access {margin-bottom: 0;}
+#access .menu { z-index:3; }
+#access ul li ul.sub-menu {left:0; right:auto;}
+#access ul li ul.sub-menu li {left:auto; clear:left;}
+#access ul li ul.sub-menu li ul.sub-menu {left: 12em; top:-1px;}
+a > .sf-sub-indicator {top:1.1em;}
+#access ul li:hover ul,
+#access ul li.sfHover ul {top:3em;}
+#access select, #access span {
+	display:none;
+}
+
+/* CONTENT */
+#content.sidebar {
+	margin: 0 34% 0 0;
+  width: 70.833333%;
+}
+.home #mainindex {margin:0;}
+#mainholder { margin: 0 0 10px 0; overflow: hidden !important; clear:both; position: relative;}
+#mainholder.fixwidth {width:960px;margin:auto;margin-bottom: 10px;}
+#holder {margin: 0 auto;}
+div.textcontent {margin: 0 auto;max-width: 940px;padding: 10px;clear: both;}
+div.textcontent h1 {text-align: center; font-size: 18px;text-transform: uppercase;}
+h2.entry-title, h3.sub {margin-bottom: 7px;font-size:16px;text-transform: uppercase;font-weight: normal;}
+/*
+h2.entry-title {text-align: center;}
+*/
+.hentry {margin:0 0 20px;overflow: hidden;}
+/*
+.entry-meta,.entry-utility{text-align: center; display: block; }
+*/
+.entry-content { margin: auto;}
+.singleitem {	float: left;position:relative;z-index: 1;}
+.singleitem .postlink {position:absolute;bottom:8px;right:8px;}
+.singleitem div.postlink {cursor:default;}
+.singleitem a, .singleitem a:hover{border:none;}
+#holder .singleitem img {	float:left; margin:0; padding:0; }
+span.imgcenter { top:250px;	position:absolute; }
+.entry-utility .entry-utility {padding-bottom: 30px;}
+/* .page-template-page-blog-php h2.entry-title, .page-template-page-blog-php h3.sub, .page-template-page-blog-php .entry-utility, .textcontent h2.entry-title, .textcontent h3.sub, .textcontent .entry-meta, .textcontent .entry-utility {text-align: left;} */
+.textcontent #commentsbox {max-width: 850px;}
+.single-attachment img {margin: 0 auto}
+.single h2.entry-title, .single span.entry-meta, .single .entry-utility {text-align: center; display: block;}
+#comments-title {padding-top: 30px;}
+/*
+//.page-template-page-blog-php span.entry-meta {display: inline;}
+//.page-template-page-blog-php .entry-content {margin-left:55px; margin-top: 30px; overflow: hidden;}
+.page-template-page-blog-php footer.entry-meta {text-align: left;}
+*/
+
+
+/*Index Slider*/
+#index .ui-slider-handle { height: 50px; position: absolute; top: -3px; background: url(images/handlebg.png);-moz-border-radius: 5px;  border-radius: 5px;margin:0 -72px; z-index: 2;}
+.start, .end {width:71px;height:50px;display:block;	position:absolute;	cursor:pointer;	z-index: 1;background:url(images/transparent.png); }
+.start{left:0;}
+#index .ui-state-hover{-moz-border-radius: 5px; border-radius: 5px; }
+#mainindex{ overflow: hidden; clear:both; position:relative; }
+#index { height: 50px; position: relative; margin:10px auto; margin-top:-60px; cursor:pointer;background:url(images/transparent.png);}
+#imagediv { margin:10px auto; position: relative; height:50px; }
+#imagediv img { float:left; cursor:pointer; opacity: 0.8; }
+.imgexcerpt {float:right; padding:10px 20px 15px 15px;font-weight:100;width:296px;display:none;}
+.imgexcerpt h6 { margin-bottom:5px; text-transform: uppercase }
+
+/* Image Left/Right Nav */
+a.leftnav, a.rightnav { width: 50%; display: block;  position: absolute; left:0; cursor: pointer;}
+a.leftnav { background-image: url(images/leftarrow.png); background-position: 2% -60%; background-repeat: no-repeat; }
+a.rightnav { background-image: url(images/rightarrow.png); background-position: 98% -60%; background-repeat: no-repeat;  }
+a.rightnav {left: 50%;}
+a.leftnav:hover { background-position: 2% 52%; }
+a.rightnav:hover { background-position: 98% 52%; }
+.slider-navigation {  width: 100%; position: absolute; z-index: 2;}
+
+
+
+/* Info box */
+a.imglink, div.imglink {text-indent: -99999em;z-index:5;height:40px; width:100%;cursor:pointer; position:absolute;bottom:0;left:0; float:right;}
+a.imglink {background: url(images/link.png) 99% 8px no-repeat;}
+a.imglink:hover {background-position: 99% -28px;}
+div.imglink {background: url(images/i.png) 99% 8px no-repeat;}
+div.imglink:hover {background-position: 99% -28px;}
+
+/* url link */
+div.linkurl {position:absolute; bottom:3px;right:37px; z-index:999;}
+div.linkurl a {background: url(images/download.png) 99% 8px no-repeat;font-size: 23px; text-indent:99999;color:#ffffff;display: block;text-indent: -99999px; width: 24px;}
+div.linkurl a:hover {background-position:99% -28px;}
+
+/* Comments */
+#commentsbox {max-width:940px;  margin:0 auto; padding: 10px; }
+#commentform {position: relative;}
+#commentform input {padding:3px; display: block;}
+#commentform p {margin:10px 0 0;}
+
+/*Footer*/
+#footer {margin:0px 0 0;text-align: center;}
+#footer p {margin:0 15px 20px;}
+.copytext {padding: 10px; margin: 0 auto; text-align: center;}
+#footer ul {padding:0;list-style: none;}
+#footer h3.sub {text-align: center;}
+#footer-widgets {padding: 0 2%; text-align: center;}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+	#page {padding :0;margin:0;}
+	#access div > ul, #access .menu { display: none }
+	#access { background-color: transparent; float: right; position: relative; }
+	#access select { display: block; margin-top: 8px; margin-left: 10px; width: auto; height:26px; z-index:2002; position:relative; z-index:10; width:140px !important; height:26px !important; line-height:26px;}
+	#access span { display: block; position:absolute; bottom:0; float:left; left:0; width:140px; height:26px; line-height:26px; text-indent:10px; font-size: .8em; background: #ececec url(images/select.png) no-repeat 100% 0; cursor:default; z-index:1; border: 1px solid #d4d4d4; text-shadow: 1px 1px 0 #fff;  -webkit-background-clip: padding; -moz-background-clip: padding; -o-background-clip: padding-box;  /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */ -webkit-border-radius: 0.2em;  -moz-border-radius: 0.2em;  border-radius: 0.2em; }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	body {
+		padding: 0 !important;
+	}
+	#mainholder {
+		height: 300px;
+
+	}
+	#below_footer {
+		font-size: 9px !important;
+	}
+}
+/*=============================================================================
+* added to customize for WooCommerce Theme
+* ============================================================================*/
+
+.woocommerce .products ul, .woocommerce ul.products {
+  padding-left: 100px;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+  background-color: #247ef9;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+  background-color: #0448a0;
+  color: #fff;
+}
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: #247ef9;
+}
+.woocommerce ul.products li.product .price {
+  color: #247ef9;
+}
+.woocommerce ul.products li.product .price:hover {
+  color: #0448a0;
+}
+.page-title {
+  padding-left: 50px;
+}
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+  padding-left: 50px;
+}
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+  padding-right: 100px;
+}

@@ -1,0 +1,47 @@
+[23-Mar-2015 01:07:12 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:14:22 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:14:32 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:22:12 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:23:33 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:24:16 UTC] PHP Fatal error:  Cannot redeclare gpp_base_child_setup() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:29) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 39
+[23-Mar-2015 01:27:30 UTC] PHP Fatal error:  Cannot redeclare remove_gpp_base_actions() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:68) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 81
+[23-Mar-2015 01:34:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 30
+[23-Mar-2015 01:36:51 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 30
+[23-Mar-2015 01:38:16 UTC] PHP Fatal error:  Cannot redeclare gpp_base_sw_below_content() (previously declared in /home/christianmelgard/public_html/wp-content/themes/sidewinder/functions.php:124) in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 33
+[23-Mar-2015 01:40:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 245
+[23-Mar-2015 01:42:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 245
+[23-Mar-2015 01:44:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 245
+[23-Mar-2015 01:54:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 244
+[23-Mar-2015 01:56:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 244
+[23-Mar-2015 02:02:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 243
+[23-Mar-2015 02:03:57 UTC] PHP Parse error:  syntax error, unexpected $end in /home/christianmelgard/public_html/wp-content/themes/sidewinder/woocommerce.php on line 765
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 18
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 19
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 24
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 26
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 67
+[28-Mar-2015 04:25:07 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 69
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 18
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 19
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 24
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 26
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 67
+[28-Mar-2015 04:33:49 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 69
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 18
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 19
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 24
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 26
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 67
+[28-Mar-2015 04:33:54 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 69
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 18
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 19
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 24
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 26
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 67
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 69
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 18
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 19
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 24
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 26
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 67
+[28-Mar-2015 04:37:51 UTC] PHP Warning:  Division by zero in /home/christianmelgard/public_html/dev/wp-content/themes/sidewinder/library/inc/core-js.php on line 69

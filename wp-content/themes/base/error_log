@@ -1,0 +1,1 @@
+[10-Feb-2015 06:20:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/christianmelgard/public_html/wp-content/themes/base/404.php on line 8

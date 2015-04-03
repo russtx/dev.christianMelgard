@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<mediaGroup>
+<amgVersion version="1.3"/>
+<groupInfo>
+<author/>
+<authorApplication>Lightroom 5.3</authorApplication>
+<creationDate>04/22/14, 10:43:36 PM</creationDate>
+<galleryMaker name="Adobe Flash Gallery" version="1.3"/>
+<groupData groupID="" groupName=""/>
+<authorID/>
+<custom>
+<groupTitle>Christian Melgard Photography</groupTitle>
+<groupDescription>DMWPV Office</groupDescription>
+<siteTitle>DMWPV Office</siteTitle>
+<contactName>2014</contactName>
+<contactEmail>cmelgardphoto@me.com</contactEmail>
+</custom>
+</groupInfo>
+<sizes>
+<imageSize maxheight="96" maxwidth="96" size="thumb"/>
+<imageSize maxheight="450" maxwidth="800" size="small"/>
+<imageSize maxheight="520" maxwidth="1040" size="medium"/>
+<imageSize maxheight="650" maxwidth="1150" size="large"/>
+</sizes>
+<media totalGallerySize="4">
+<item>
+<title></title>
+<description></description>
+<imageID id="111054" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="650" src="images/large/_MG_0773.jpg" width="984" size="large"/>
+<rendition height="520" src="images/medium/_MG_0773.jpg" width="787" size="medium"/>
+<rendition height="450" src="images/small/_MG_0773.jpg" width="681" size="small"/>
+<rendition height="63" src="images/thumb/_MG_0773.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="111088" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="650" src="images/large/_MG_0775.jpg" width="975" size="large"/>
+<rendition height="520" src="images/medium/_MG_0775.jpg" width="780" size="medium"/>
+<rendition height="450" src="images/small/_MG_0775.jpg" width="675" size="small"/>
+<rendition height="64" src="images/thumb/_MG_0775.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="111172" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="640" src="images/large/_MG_0781.jpg" width="1150" size="large"/>
+<rendition height="520" src="images/medium/_MG_0781.jpg" width="935" size="medium"/>
+<rendition height="445" src="images/small/_MG_0781.jpg" width="800" size="small"/>
+<rendition height="53" src="images/thumb/_MG_0781.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+<item>
+<title></title>
+<description></description>
+<imageID id="111242" dbtype="Adobe Lightroom 3.0" dbname="main"/>
+<mediaType format="jpeg" category="image"/>
+<renditions>
+<rendition height="650" src="images/large/_MG_0786.jpg" width="1000" size="large"/>
+<rendition height="520" src="images/medium/_MG_0786.jpg" width="800" size="medium"/>
+<rendition height="450" src="images/small/_MG_0786.jpg" width="692" size="small"/>
+<rendition height="62" src="images/thumb/_MG_0786.jpg" width="96" size="thumb"/>
+</renditions>
+</item>
+</media>
+</mediaGroup>
